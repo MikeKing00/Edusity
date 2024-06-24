@@ -1,0 +1,26 @@
+.footer{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px auto;
+    border-top: 1px solid #989898
+}
+.footer p , .footer ul li{
+    display: inline-block;
+    margin: 15px ;
+}
+
+/* -----------Media Query----------- */
+ @media (max-width:670px) {
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li{
+        margin: 10px;
+    }
+    .footer ul {
+        margin-top: 10px;
+    }
+ }
